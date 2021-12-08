@@ -1,0 +1,59 @@
+#add_productbody{
+    background: url("http://localhost/zebodo/images/background.jpg");
+    background-color: whitesmoke;
+    background-size: cover;
+}
+#add_productheading{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#add_productcontainer{
+    margin: auto;
+    background-color:white;
+  width: 35%;
+  min-height: 70%;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px;
+  margin-bottom: 50px;
+}
+#add_productform{
+    width: 90%;
+    margin:auto;
+}
+#row{
+    text-align: center;
+    margin-top: 20px;
+}
+#form-button{
+    margin:auto;
+    width: 40%;
+    height: 40px;
+    margin-top: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+  display:block;
+  border-radius: 5px;
+  margin-bottom:20px;
+  background-color:#1877f2;
+}
+#form-button:hover{
+    background-color: blue;
+}
+#form-input{
+    border:1px solid #1877f2;
+    border-radius: 5px;
+    width: 60%;
+}
+#image-input{
+    width: 270px;
+    border:1px solid #1877f2;
+    border-radius: 5px;
+}
+#form-label{
+    width: 40%;
+    text-align: left;
+}

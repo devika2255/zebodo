@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+#booking-body{
+    background-color: whitesmoke;
+}
+#booking-container{
+    background-color: white;
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    min-height: 500px;
+}
+#product-image{
+    height: 100px;
+    margin: 5px;
+}
+
+#cancel-book{
+    padding:1em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+    color: white;
+    background-color: red;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+#booking-table{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#booking-image-td{
+    width: 20%;
+}
+#booking-details-td{
+    width: 20%;
+    text-align: center;
+}
+#booking-seller-td{
+    width: 20%;
+    text-align: center;
+}
+#booking-seller-td{
+    width: 20%;
+}
+#booking-price{
+    font-size: 20px;
+}
+#booking-name{
+    font-size: 18px;
+}
+#booking-seller{
+    font-size: 18px;
+}
+tr{
+    margin-bottom: 10px;
+}
+#no-items-image{
+    width: 400px;
+}
+#shop-now{
+    padding:1em;
+    font-weight: bolder;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+    color: white;
+    background-color: rgb(49, 49, 255);
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#no-items{
+    margin-left: 35%;
+    margin-top: 5%;
+}

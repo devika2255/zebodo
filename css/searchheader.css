@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#logo{
+    height: 50px;
+    margin-top: 15px;
+}
+#navbar{
+    background-color: black;
+    display: flex;
+    height: 80px;
+    border-radius: 5px;
+}
+#form-search{
+    float: right;
+}
+#nav-link{
+    text-decoration: none;
+    color: white;
+}
+#nav-link:hover{
+    text-decoration: none;
+}
+#navbar-item{
+    font-size: 22px;
+    margin-left:22px;
+    list-style: none;
+    padding-top: 28px;
+   
+}
+#form-search{
+    margin-left:560px;
+    margin-top: 23px;
+}
+#form-search-input{
+    height: 37px;
+    border-radius: 5px;
+    
+}
+#form-search-button{
+    border-radius: 5px;
+    border:1px solid green;
+    color: white;
+    height: 37px;
+    width: 75px;
+    background-color: black;
+}
+#form-search-button:hover{
+    background-color: green;
+}

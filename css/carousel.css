@@ -1,0 +1,7 @@
+#carouselExampleIndicators{
+    border: 1px solid red;
+    background-color: yellow;
+}
+.carousel-inner{
+    border: 5px solid green;
+}

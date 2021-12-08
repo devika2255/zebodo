@@ -1,0 +1,37 @@
+ #landing-image{
+     height: 500px;
+ }
+ #landing-text{
+     display: inline-block;
+     margin-left: 10%;
+     margin-top: 10%;
+}
+#landing-image-container{
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+#landing-header{
+    font-size: 40px;
+    line-height: 1.2;
+}
+#landing-button{
+    width: 200px;
+    height: 40px;
+    padding-top: 8px;
+    margin-top: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+  display:block;
+  border-radius: 15px;
+  text-align: center;
+  background-color:rgba(250, 162, 0, 0.993);
+  margin-top: 10px;
+}
+#landing-detail{
+    color: gray;
+}
+#landing-body{
+    background-color: #fffcdb;
+}

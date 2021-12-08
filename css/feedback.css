@@ -1,0 +1,82 @@
+#feedback-body{
+    background-color: #f7fafc;
+}
+#feedback-container{
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    min-height: 450px;
+    box-shadow: 2px 2px 10px black;
+}
+#feedback-heading{
+    height: 50px;
+}
+#heading-text{
+    font-size: 25px;
+    margin-left: 10px;
+    
+} 
+#change-pincode{
+    margin-top: 0px;
+    width: 150px;
+    float: left;
+    margin-left: 38%;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    height: calc(2.75rem + 2px);
+    padding: .625rem .75rem;
+    transition: all .2s cubic-bezier(.68, -.55, .265, 1.55);
+    color: white;
+    border: 1px solid #cad1d7;
+    border-radius: .375rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: 2px 2px 10px #8898aa;
+    background-color:#11cdef;
+  
+}
+
+#change-links{
+    margin-top:50px;
+    
+}
+
+#feedbackform{
+    margin-left: 10px;
+}
+
+#feedbacklabel{
+    font-size: 14px;
+    font: gray;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+#box1{
+    border: 1px solid #11cdef;
+    border-radius: 5px;
+    width: 40%;
+    margin-top: 0px;
+}
+#box2{
+    border: 1px solid #11cdef;
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+hr {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 8%;
+    border: 0;
+    width: 84%;
+    box-shadow: 2px 2px 10px #8898aa;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+  }
+  .val{
+    color: red;
+}

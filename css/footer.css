@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+footer{
+    background-color: #292b2c ;
+    color: white;
+    
+    
+}
+#footer-column{
+    margin:25px 50px;
+    display: inline-block;
+    
+}
+
+#footer-nav{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+}
+#link-footer{
+    margin-top: 2px;
+}

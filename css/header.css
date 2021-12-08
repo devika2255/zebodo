@@ -1,0 +1,122 @@
+*{
+  border:0;
+  padding:0;
+}
+/*all links in webpage*/
+#navlink{
+  text-decoration: none;
+  color: white;
+}
+/*for header*/
+header{
+  width: 100%;
+  height: 80px;
+  background-color :#343a40;
+
+
+}
+/*for logo*/
+.logo{
+
+  float: left;
+  height: 60px;
+  margin-top: 10px;
+}
+/*for form inc searchbox*/
+form{
+  margin-top: 20px;
+  width:800px;
+  height: 50%;
+  margin-bottom: 100px;
+  float: left;
+  flex-shrink:17;
+
+}
+/*for searchbox*/
+.search_text{
+
+  float: left;
+  height: 100%;
+  width: 90%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*for search button*/
+.search_button{
+
+  float: left;
+  height: 100%;
+  width: 7%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/*for search button:hover*/
+.search_button:hover {
+  background: #0b7dda;
+}
+/*for navbar*/
+.navbar{
+  margin-left: 5px;
+  margin-top: 5px;
+  float: right;
+}
+/*for for li in navbar*/
+.navbar li{
+  float: left;
+  width: 90px;
+  height: 55px;
+  color: white;
+  font-size: 20px;
+  align-content: center;
+  list-style: none;
+  border-radius:5px ;
+}
+/*for cart li in navbar*/
+#cart{
+  width:110px;
+  margin-right: 5px;
+}
+/*for cart image in cart li in navbar*/
+.navbar li img{
+  margin-left: 10px;
+  height: 55px;
+  padding: 0px;
+  float: left;
+}
+/*for for li in navbar:hover*/
+.navbar li:hover{
+  border: 1px solid white;
+}
+/*for cart text in cart li in navbar*/
+.nav-Cart{
+  margin-top: 30px;
+}
+/*for vendor and order li in navbar*/
+.nav-vendor,.nav-order{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+/*for order li in navbar*/
+.nav-order{
+  margin-left: 10px;
+}
+/*for hello text in sigin li in navbar*/
+.nav-signin{
+  margin-left:18px;
+}
+/*for signin text in sigin li in navbar*/
+#sigin{
+  margin-left:10px;
+}
+@media only screen and (max-width: 1500px) {
+  #search{
+    width:600px;
+  }
+
+}
+@media only screen and (max-width: 1250px) {
+  #search{
+    width:300px;
+  }
+
+}
